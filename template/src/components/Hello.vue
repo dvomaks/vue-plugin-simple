@@ -1,15 +1,15 @@
 <template>
-<h1 id="greetings">Hello! {{ name }}</h1>
+  <h1 id="greetings">Hello! {{ name }}</h1>
 </template>
 
 
 <script>
-import upper from 'lodash/startCase';
+import upper from 'lodash/startCase'
 
 export default {
   computed: {
     name() {
-      return upper('John Doe');
+      return upper('John Doe')
     },
   },
 };
